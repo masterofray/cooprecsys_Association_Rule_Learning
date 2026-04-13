@@ -1,3 +1,6 @@
+- **Author**: Aryanto
+- **Homepage**: https://masterofray.github.io
+
 # CFP-Tree: Conditional Frequent Pattern Tree
 
 A high-performance Python/Cython implementation of the CFP-tree data structure for efficient frequent pattern mining.
@@ -214,27 +217,6 @@ The LCM algorithm uses:
 - **Best case**: O(n) where n is the number of frequent itemsets
 - **Worst case**: O(n * m) where m is the average transaction size
 - **Average case**: Near-linear performance on real datasets
-
-## Original Work
-
-This is a Python/Cython port of the original C implementation by Takeaki Uno:
-- **Author**: Takeaki Uno
-- **Homepage**: http://research.nii.ac.jp/~uno/index.html
-- **Original C Code**: http://research.nii.ac.jp/~uno/codes.htm
-
-### Citation
-
-If you use this library in research, please cite the original work:
-
-```
-Uno, T. (2005). An efficient algorithm for enumerating closed itemsets 
-with irredundant dualization. Advances in Knowledge Discovery and 
-Data Mining, 255-265.
-```
-
-## License
-
-This port maintains the same licensing as the original C code. Please see LICENSE file.
 
 ## Limitations and Future Work
 

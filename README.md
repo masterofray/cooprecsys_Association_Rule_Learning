@@ -1,4 +1,5 @@
 - **Author**: Aryanto
+- **Email**: aryanto.dandan@gmail.com
 - **Homepage**: https://masterofray.github.io
 
 # CFP-Tree: Conditional Frequent Pattern Tree
@@ -264,9 +265,4 @@ For issues, questions, or suggestions:
 - Support for closed, frequent, and maximal itemset mining
 - Association rules generation
 - Utility functions for itemset manipulation
-
-## Acknowledgments
-
-- Takeaki Uno for the original LCM algorithm and C implementation
-- David Duverle for the R package integration
-- Python and Cython communities
+- add the CFPtree and LCM algorithm
